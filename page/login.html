@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+    <head>
+
+        <meta charset="UTF-8" />
+        <link rel="stylesheet" href="assets/css/style.css" />
+        <link href="https://fonts.googleapis.com/css2?family=Architects+Daughter&display=swap" rel="stylesheet">
+
+    </head>
+    <body>
+        
+        <form method="post" enctype="multipart/form-data">
+            <input type="hidden" name="country" value="BR" />
+
+            <fieldset>
+                <legend>Dados Pessoais</legend>
+                <label>
+    
+                    Nome</br> 
+                    <input type="text" name="name" required minlength="2" maxlength="40"/>
+
+                </label></br>
+                <label>
+    
+                    Sobrenome</br> 
+                    <input type="text" name="lastname" required/>
+
+                </label></br>
+                <label>
+    
+                    Idade</br> 
+                    <input type="number" name="age" required min="18" max="60"/>
+
+                </label></br>
+                <label>
+    
+                    Foto</br> 
+                    <input type="file" name="photo" accept="image/*"/>
+
+                </label></br>
+            </fieldset>
+            <fieldset>
+                <legend>Dados Profissionais</legend>
+                <label>
+    
+                    Empresa</br> 
+                    <input type="text" name="companyname" />
+
+                </label></br>
+                <label>
+    
+                    Cargo</br> 
+                    <input type="text" name="companyjobtytle" />
+
+                </label></br>
+            </fieldset>
+            <label>
+ 
+                <input type="submit" name="Cadastrar" />
+
+            </label></br>
+
+        </form>
+    </body>
+</html>

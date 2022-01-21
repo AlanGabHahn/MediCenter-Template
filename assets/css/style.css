@@ -1,0 +1,39 @@
+label{
+
+    display:block;
+    margin-bottom: 20px;
+
+}
+
+input[type=text], textarea {
+   
+    padding: 10px;
+    width: 500px;
+    font-size: 17px;
+    border: 1px solid rgb(109, 86, 129);
+    outline: 0px;
+    margin-top: 5px;
+
+}
+
+textarea{
+   
+    height: 200px;
+    resize: none;
+
+}
+
+button {
+
+    padding: 10px;
+    border: 1px solid rgb(109, 86, 129);
+    font-size: 15px;
+    background-color: salmon;
+
+}
+
+button:hover{
+
+    background-color: rgb(255, 164, 154);
+
+}

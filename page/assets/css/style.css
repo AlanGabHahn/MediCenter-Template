@@ -1,0 +1,40 @@
+body{
+    margin: 0px;
+}
+
+.container{
+    width: 300px;
+    height: 300px;
+    background-color: coral;
+    color: cornsilk;
+    font-size: 30px;
+}
+
+fieldset{
+    background-color: rgb(179, 224, 241);
+    font-family: 'Architects Daughter', cursive;
+    margin-bottom: 20px;
+    border: 2px solid #ccc;
+    color: #FFF;
+}
+
+legend{
+    background-color: #ccc;
+    padding: 5px;
+}
+
+input[type=submit] {
+    border-radius: 5px;
+    color: #FFF;
+    background-color: #ccc;
+    border: 2px solid #ccc ;
+    font-family: 'Architects Daughter', cursive;
+}
+
+input[type=submit]:hover {
+    border-radius: 5px;
+    color: #FFF;
+    background-color: rgb(102, 101, 101);
+    border: 2px solid rgb(102, 101, 101) ;
+    font-family: 'Architects Daughter', cursive;
+}
