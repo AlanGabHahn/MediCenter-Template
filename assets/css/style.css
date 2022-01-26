@@ -142,3 +142,49 @@ nav .active a, nav a:hover{
     background-color: #36a9e1;
     margin-top: 10px;
 }
+.flex{
+    display: flex;
+    flex-wrap: wrap;
+}
+article{
+    flex: 1;
+    min-width: 300px;
+}
+article a{
+    text-decoration: none;
+}
+article .new_data{
+    display: flex;
+}
+article .new_posted_at{
+    background-color: #2b4c99;
+    color: #fff;
+    font-size: 12px;
+    padding: 10px;
+    margin-right: 2px;
+}
+article .new_comment{
+    background-color: #39aae1;
+    color: #fff;
+    font-size: 12px;
+    padding: 10px;
+}
+article .new_tumb{
+    margin-top: 30px;
+}
+article .new_tumb img{
+    width: 100%;
+    height: auto;
+}
+article .new_title{
+    margin-top: 25px;
+    margin-bottom: 25px;
+    font-size: 25px;
+    color: black;
+}
+article .new_resume{
+    font-size: 14px;
+    line-height: 20px;
+    color: #5c5c5c;
+    margin-bottom: 30px;
+}
