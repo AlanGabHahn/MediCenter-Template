@@ -1,39 +1,41 @@
-label{
-
-    display:block;
-    margin-bottom: 20px;
-
+body{
+    margin: 0px;
+    padding: 0px;
 }
-
-input[type=text], textarea {
-   
-    padding: 10px;
-    width: 500px;
-    font-size: 17px;
-    border: 1px solid rgb(109, 86, 129);
-    outline: 0px;
-    margin-top: 5px;
-
+header{
+    display: flex;
+    justify-content: center;
+    height: 120px;
 }
-
-textarea{
-   
-    height: 200px;
-    resize: none;
-
+.container{
+    display: flex;
+    justify-content: space-between;
+    width: 990px;
 }
-
-button {
-
-    padding: 10px;
-    border: 1px solid rgb(109, 86, 129);
-    font-size: 15px;
-    background-color: salmon;
-
+.logo{
+    display: flex;
+    align-items: center;
 }
-
-button:hover{
-
-    background-color: rgb(255, 164, 154);
-
+.menu{
+    display: flex;
+    align-items: center;
+}
+nav ul, nav li{
+    list-style: none;
+    margin: 0px;
+    padding: 0px;
+}
+nav ul{
+    display: flex;
+}
+nav a{
+    display: block;
+    padding: 15px;
+    text-decoration: none;
+    text-transform: uppercase;
+    color: #727272;
+}
+nav .active a, nav a:hover{
+    background-color: #39aae1;
+    color: #fff;
 }
