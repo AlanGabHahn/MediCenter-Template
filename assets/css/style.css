@@ -238,5 +238,113 @@ article .make_app div{
     padding: 9px;
     color: #5c5c5c;
 }
+footer{
+    background-color: #1e1e1e;
+    display: flex;
+    justify-content: center;
+}
 
+.footer_menu{
+    display: flex;
+    flex: 1;
+}
+.fm_1, .fm_2, .fm_3{
+    flex:1;
+    color: #fff;
+    padding: 20px;
+}
+.fm_1{
+    background-color: #39aae1;
+ }
+ .fm_2{
+     background-color: #0079c7;
+ }
+ .fm_3{
+     background-color: #2b4c99;
+ }
+ .footer_area{
+     display: flex;
+     color: #fff;
+ }
+ .footer_area_item{
+     flex: 1;
+    color: #fff;
 
+ }
+ .flexColumn{
+     flex-direction: column;
+ }
+ footer .widget_title_text{
+     color:#fff;
+ }
+ .footer_copy{
+    border-top: 1px solid #2c2c2c;
+    height: 40px;
+    line-height: 40px;
+    color: #5c5c5c;
+    font-size: 12px;
+    margin-top: 30px;
+ }
+ footer .footer_title{
+    margin-top: 10px;
+    margin-bottom: 10px;
+    font-size: 25px;
+    color: #fff;
+}
+footer .footer_resume{
+    font-size: 14px;
+    line-height: 20px;
+    color: #fff;
+    margin-bottom: 10px;
+}
+footer a{
+    text-decoration: none;
+}
+footer .footer_clinic{
+    font-size: 14px;
+    line-height: 20px;
+    color: #5c5c5c;
+    margin-bottom: 30px;
+    margin-top: 30px;
+} 
+footer .footer_mail{
+    color: #fff;
+}
+footer .footer_last_post{
+    display: flex;
+    flex-direction:column;
+    font-size: 14px;
+    line-height: 20px;
+    color: #fff;
+    margin-bottom: 30px;
+    margin-top: 30px;
+} 
+footer .footer_last_post i{
+    margin-right: 10px;
+}
+footer .footer_last_post label{
+    color: #39aae1;
+    font-size: 10px; 
+} 
+footer .footer_last_post div{
+    margin-bottom: 20px;
+}
+footer .footer_last_tweets{
+    display: flex;
+    flex-direction:column;
+    font-size: 14px;
+    line-height: 20px;
+    color: #5c5c5c;
+    margin-bottom: 30px;
+    margin-top: 30px;
+} 
+footer .footer_last_tweets i{
+    margin-right: 10px;
+}
+footer .footer_last_tweets label{
+    color: #39aae1; 
+    font-size: 10px;
+} 
+footer .footer_last_tweets div{
+    margin-bottom: 20px;
+}
