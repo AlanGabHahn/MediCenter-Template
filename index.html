@@ -5,6 +5,17 @@
         <meta id="viewport" name="viewport" content="width=device-width, user-scalable=yes">
         <link rel="stylesheet"  type="text/css" href="assets/css/style.css" />
         <link rel="stylesheet" href="./assets/fonts/fontawesome/css/all.min.css">
+        <script type="text/javascript">
+            window.onload = function(){
+                document.querySelector(".menuMobile").addEventListener("click", function(){
+                    if(document.querySelector(".menu nav ul").style.display == 'flex') {
+                        document.querySelector(".menu nav ul").style.display = 'none';
+                    } else {
+                        document.querySelector(".menu nav ul").style.display = 'flex';
+                    }
+                });
+            };
+        </script>
         <title> MediCenter</title>
     </head>
     <body>
@@ -16,14 +27,19 @@
                 </div>
                 <div class="menu">
                     <nav>
-                        <ul>
-                            <li class="active"><a href="">Home</a></li>
-                            <li><a href="">Blog</a></li>
-                            <li><a href="">pages</a></li>
-                            <li><a href="">departaments</a></li>
-                            <li><a href="">timetable</a></li>
-                            <li><a href="">gallery</a></li>
-                        </ul>
+                        <div class="menuMobile">
+                            <div class="mm_line"></div>
+                            <div class="mm_line"></div>
+                            <div class="mm_line"></div>
+                        </div>
+                            <ul>
+                                <li class="active"><a href="">Home</a></li>
+                                <li><a href="">Blog</a></li>
+                                <li><a href="">pages</a></li>
+                                <li><a href="">departaments</a></li>
+                                <li><a href="">timetable</a></li>
+                                <li><a href="">gallery</a></li>
+                            </ul>
                     </nav>
                 </div>
             </div>
