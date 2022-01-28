@@ -348,6 +348,16 @@ footer .footer_last_tweets label{
 footer .footer_last_tweets div{
     margin-bottom: 20px;
 }
+footer .footer_icons{
+    display: flex;
+    margin-top: 30px;
+    margin-right: 80px;
+}
+footer .footer_icons i{
+    color: #5c5c5c;
+    margin-left: 10px;
+    
+}
 
 .menuMobile{
     display: none;
